@@ -111,6 +111,7 @@ document.body.innerText
         const [amount, from, to] = ins[i];
 
         // Run the instructions
+        // Could probably have done this with an extra .reverse() for part 1.
         st[to - 1].push(...st[from - 1].splice(st[from - 1].length - amount));
       }
 
