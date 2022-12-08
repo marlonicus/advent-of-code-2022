@@ -23,7 +23,6 @@
 
   // Parse the log
   const log = document.body.innerText //
-    //   const log = str //
     .split("\n")
     .filter((x) => x != "");
 
